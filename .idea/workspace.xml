@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40a1325-8133-47b4-9e3b-4654752d80f1" name="Changes" comment="jar added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/CustomerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/ItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/tm/CustomerTM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/tm/ItemTM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/config/SessionFactoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/config/SessionFactoryConfig.java" afterDir="false" />
+    <list default="true" id="a40a1325-8133-47b4-9e3b-4654752d80f1" name="Changes" comment="packages added">
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/CustomerDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/ItemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/UserDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/entity/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +75,7 @@
       <workItem from="1707833263904" duration="435000" />
       <workItem from="1707834188642" duration="305000" />
       <workItem from="1707835431844" duration="3000" />
-      <workItem from="1707840608716" duration="1758000" />
+      <workItem from="1707840608716" duration="2804000" />
     </task>
     <task id="LOCAL-00001" summary="jar added">
       <option name="closed" value="true" />
@@ -91,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707829933860</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="packages added">
+      <option name="closed" value="true" />
+      <created>1707842376879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707842376879</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jar added" />
-    <option name="LAST_COMMIT_MESSAGE" value="jar added" />
+    <MESSAGE value="packages added" />
+    <option name="LAST_COMMIT_MESSAGE" value="packages added" />
   </component>
 </project>

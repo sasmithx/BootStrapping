@@ -21,5 +21,7 @@ public class Customer {
     private String name;
     @Column(name = "customer_address")
     private String address;
+    @Column(name = "customer_mobile_num")
+    private int mobile_num;
 
 }
