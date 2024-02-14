@@ -19,12 +19,12 @@ import javax.persistence.Id;
 @Entity(name = "user")
 public class User {
     @Id
-    @Column
+    @Column(name = "user_id")
     private String userId;
 
-    @Column
+    @Column(name = "user_name")
     private String userName;
 
-   @Column
+   @Column(name = "password")
     private String password;
 }
