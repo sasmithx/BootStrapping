@@ -19,7 +19,8 @@ public class Item {
     private String id;
     @Column(name = "item_name")
     private String name;
-
+    @Column(name = "item_qty")
+    private int qty;
     @Column(name = "item_price")
     private double price;
 

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="649.0" prefWidth="1061.0" style="-fx-background-color: #161B22;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.nativeBootStrapping.controller.ItemFormController">
+   <children>
+      <Label layoutX="436.0" layoutY="35.0" text="Item Form" textFill="#e77f67">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtId" layoutX="196.0" layoutY="141.0" onKeyTyped="#txtValid" prefHeight="42.0" prefWidth="205.0" style="-fx-background-radius: 10;" />
+      <Label layoutX="196.0" layoutY="103.0" text="Item ID" textFill="#e77f67">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtqty" layoutX="196.0" layoutY="248.0" onKeyTyped="#txtValiqty" prefHeight="42.0" prefWidth="205.0" style="-fx-background-radius: 10;" />
+      <TextField fx:id="txtPrice" layoutX="628.0" layoutY="248.0" onKeyTyped="#txtValiPrice" prefHeight="42.0" prefWidth="205.0" style="-fx-background-radius: 10;" />
+      <TextField fx:id="txtName" layoutX="628.0" layoutY="140.0" onKeyTyped="#txtValiName" prefHeight="42.0" prefWidth="205.0" style="-fx-background-radius: 10;" />
+      <Label layoutX="628.0" layoutY="103.0" text="Item Name" textFill="#e77f67">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="215.0" text="Item qty" textFill="#e77f67">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="628.0" layoutY="215.0" text="Item Price" textFill="#e77f67">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="469.0" layoutY="335.0" prefHeight="42.0" prefWidth="82.0" style="-fx-background-color: #e77f67; -fx-background-radius: 10;" text="Save">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="803.0" layoutY="335.0" prefHeight="42.0" prefWidth="82.0" style="-fx-background-color: #e77f67; -fx-background-radius: 10;" text="Clear">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="575.0" layoutY="335.0" prefHeight="42.0" prefWidth="82.0" style="-fx-background-color: #e77f67; -fx-background-radius: 10;" text="Update">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="690.0" layoutY="335.0" prefHeight="42.0" prefWidth="82.0" style="-fx-background-color: #e77f67; -fx-background-radius: 10;" text="Delete">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="tblCustomer" layoutX="196.0" layoutY="395.0" prefHeight="232.0" prefWidth="689.0">
+         <columns>
+            <TableColumn fx:id="colId" prefWidth="113.0" text="Item ID" />
+            <TableColumn fx:id="colName" prefWidth="241.0" text="Item Name" />
+            <TableColumn fx:id="colqty" minWidth="9.0" prefWidth="118.0" text="Item qty" />
+            <TableColumn fx:id="colPrice" minWidth="0.0" prefWidth="216.0" text="Item Price" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

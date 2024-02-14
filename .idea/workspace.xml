@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40a1325-8133-47b4-9e3b-4654752d80f1" name="Changes" comment="classes encapsulated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/controller/LoginFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assests/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/login_page_form.fxml" afterDir="false" />
+    <list default="true" id="a40a1325-8133-47b4-9e3b-4654752d80f1" name="Changes" comment="bo added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/bo/custom/CustomerBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/bo/custom/ItemBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/bo/custom/UserBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/controller/CustomerFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/controller/DashboardFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/controller/ItemFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/controller/SignUpFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/CustomerForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/DashboardForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ItemForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Sign_upform.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/ItemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/entity/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Class" />
       </list>
@@ -39,9 +50,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/sasa-x/Documents/INTELLIJ/BootStrapping/src/main/resources/assests",
+    "last_opened_file_path": "/home/sasa-x/Documents/INTELLIJ/Layered-Fruity-Fizz",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +72,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assests" />
       <recent name="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/lib" />
     </key>
   </component>
@@ -78,7 +91,7 @@
       <workItem from="1707835431844" duration="3000" />
       <workItem from="1707840608716" duration="2804000" />
       <workItem from="1707843904240" duration="98000" />
-      <workItem from="1707875774810" duration="1150000" />
+      <workItem from="1707875774810" duration="8206000" />
     </task>
     <task id="LOCAL-00001" summary="jar added">
       <option name="closed" value="true" />
@@ -104,7 +117,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707843926156</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="img added">
+      <option name="closed" value="true" />
+      <created>1707877035205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707877035205</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bo added">
+      <option name="closed" value="true" />
+      <created>1707878961961</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707878961961</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +143,8 @@
     <MESSAGE value="jar added" />
     <MESSAGE value="packages added" />
     <MESSAGE value="classes encapsulated" />
-    <option name="LAST_COMMIT_MESSAGE" value="classes encapsulated" />
+    <MESSAGE value="img added" />
+    <MESSAGE value="bo added" />
+    <option name="LAST_COMMIT_MESSAGE" value="bo added" />
   </component>
 </project>

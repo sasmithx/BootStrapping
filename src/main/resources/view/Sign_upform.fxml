@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="signUPPane" prefHeight="663.0" prefWidth="599.0" style="-fx-background-color: #161B22;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.nativeBootStrapping.controller.SignUpFormController">
+   <children>
+      <Label layoutX="241.0" layoutY="51.0" text="Sign Up" textFill="#e77f67">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUserId" layoutX="157.0" layoutY="182.0" prefHeight="44.0" prefWidth="287.0" style="-fx-background-radius: 10;" />
+      <TextField fx:id="txtUserName" layoutX="156.0" layoutY="278.0" prefHeight="44.0" prefWidth="287.0" style="-fx-background-radius: 10;" />
+      <TextField fx:id="txtPwd" layoutX="156.0" layoutY="387.0" prefHeight="44.0" prefWidth="287.0" style="-fx-background-radius: 10;" />
+      <Label layoutX="157.0" layoutY="139.0" text="User Id" textFill="#e77f67">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="244.0" text="User Name" textFill="#e77f67">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="349.0" text="Password" textFill="#e77f67">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnSignUp" layoutX="245.0" layoutY="497.0" onAction="#signUpOnAction" prefHeight="44.0" prefWidth="111.0" style="-fx-background-color: #e77f67; -fx-background-radius: 10;" text="Sign Up">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

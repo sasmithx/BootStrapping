@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="649.0" prefWidth="1061.0" style="-fx-background-color: #161B22;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.nativeBootStrapping.controller.DashboardFormController">
+   <children>
+      <JFXButton layoutX="316.0" layoutY="419.0" onAction="#customerOnAction" prefHeight="103.0" prefWidth="130.0" style="-fx-background-color: #e77f67; -fx-background-radius: 0 30 0 30;" text="Customer">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="562.0" layoutY="419.0" onAction="#itemOnAction" prefHeight="103.0" prefWidth="130.0" style="-fx-background-color: #e77f67; -fx-background-radius: 0 30 0 30;" text="Item">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="430.0" layoutY="48.0" prefHeight="61.0" prefWidth="202.0" style="-fx-background-radius: 10;" text="WELCOME" textFill="#e77f67">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTime" layoutX="719.0" layoutY="136.0" prefHeight="142.0" prefWidth="212.0" text="09:45" textFill="WHITE">
+         <font>
+            <Font size="65.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTime1" layoutX="921.0" layoutY="204.0" prefHeight="31.0" prefWidth="77.0" text="AM" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

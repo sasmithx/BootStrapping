@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="649.0" prefWidth="1061.0" style="-fx-background-color: #161B22;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.nativeBootStrapping.controller.CustomerFormController">
+   <children>
+      <TableView fx:id="tblCustomer" layoutX="186.0" layoutY="385.0" prefHeight="232.0" prefWidth="689.0">
+         <columns>
+            <TableColumn fx:id="colId" prefWidth="113.0" text="Customer ID" />
+            <TableColumn fx:id="colName" prefWidth="241.0" text="Name" />
+            <TableColumn fx:id="colAddress" minWidth="9.0" prefWidth="118.0" text="Address" />
+            <TableColumn fx:id="colContact" minWidth="0.0" prefWidth="216.0" text="Contact" />
+         </columns>
+      </TableView>
+      <Label layoutX="426.0" layoutY="25.0" text="Customer Form" textFill="#e77f67">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtId" layoutX="186.0" layoutY="131.0" onKeyTyped="#txtValid" prefHeight="42.0" prefWidth="205.0" style="-fx-background-radius: 10;" />
+      <TextField fx:id="txtAddress" layoutX="186.0" layoutY="238.0" onKeyTyped="#txtValiAddress" prefHeight="42.0" prefWidth="205.0" style="-fx-background-radius: 10;" />
+      <TextField fx:id="txtContact" layoutX="618.0" layoutY="238.0" onKeyTyped="#txtValiCnt" prefHeight="42.0" prefWidth="205.0" style="-fx-background-radius: 10;" />
+      <TextField fx:id="txtName" layoutX="618.0" layoutY="130.0" onKeyTyped="#txtValiName" prefHeight="42.0" prefWidth="205.0" style="-fx-background-radius: 10;" />
+      <Label layoutX="186.0" layoutY="93.0" text="Customer ID" textFill="#e77f67">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="618.0" layoutY="93.0" text="Customer Name" textFill="#e77f67">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="186.0" layoutY="205.0" text="Customer Address" textFill="#e77f67">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="618.0" layoutY="205.0" text="Customer Contact" textFill="#e77f67">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="459.0" layoutY="325.0" prefHeight="42.0" prefWidth="82.0" style="-fx-background-color: #e77f67; -fx-background-radius: 10;" text="Save">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="793.0" layoutY="325.0" prefHeight="42.0" prefWidth="82.0" style="-fx-background-color: #e77f67; -fx-background-radius: 10;" text="Clear">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="565.0" layoutY="325.0" prefHeight="42.0" prefWidth="82.0" style="-fx-background-color: #e77f67; -fx-background-radius: 10;" text="Update">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="680.0" layoutY="325.0" prefHeight="42.0" prefWidth="82.0" style="-fx-background-color: #e77f67; -fx-background-radius: 10;" text="Delete">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
