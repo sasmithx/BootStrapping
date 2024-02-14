@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40a1325-8133-47b4-9e3b-4654752d80f1" name="Changes" comment="BO implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/CrudDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/DAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/SuperDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/custom/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/custom/ItemDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/custom/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/custom/impl/CustomerDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/custom/impl/ItemDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/custom/impl/UserDAOImpl.java" afterDir="false" />
+    <list default="true" id="a40a1325-8133-47b4-9e3b-4654752d80f1" name="Changes" comment="CustomerDAOImpl completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/bo/custom/ItemBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/bo/custom/ItemBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/bo/custom/impl/CustomerBOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/bo/custom/impl/CustomerBOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/DashboardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/DashboardForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/custom/ItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/custom/ItemDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/custom/impl/ItemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dao/custom/impl/ItemDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -91,7 +81,7 @@
       <workItem from="1707840608716" duration="2804000" />
       <workItem from="1707843904240" duration="98000" />
       <workItem from="1707875774810" duration="8996000" />
-      <workItem from="1707904228709" duration="311000" />
+      <workItem from="1707904228709" duration="2421000" />
     </task>
     <task id="LOCAL-00001" summary="jar added">
       <option name="closed" value="true" />
@@ -157,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707897297751</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DAO implemented">
+      <option name="closed" value="true" />
+      <created>1707904549040</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707904549040</updated>
+    </task>
+    <task id="LOCAL-00010" summary="CustomerDAOImpl completed">
+      <option name="closed" value="true" />
+      <created>1707905981115</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707905981115</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +178,8 @@
     <MESSAGE value="skeleton added" />
     <MESSAGE value="TM updated" />
     <MESSAGE value="BO implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="BO implemented" />
+    <MESSAGE value="DAO implemented" />
+    <MESSAGE value="CustomerDAOImpl completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="CustomerDAOImpl completed" />
   </component>
 </project>
