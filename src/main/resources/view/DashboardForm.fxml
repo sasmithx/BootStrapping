@@ -18,7 +18,7 @@
             <Font size="20.0" />
          </font>
       </JFXButton>
-      <Label layoutX="430.0" layoutY="48.0" prefHeight="61.0" prefWidth="202.0" style="-fx-background-radius: 10;" text="WELCOME" textFill="#e77f67">
+      <Label layoutX="430.0" layoutY="23.0" prefHeight="61.0" prefWidth="202.0" style="-fx-background-radius: 10;" text="WELCOME" textFill="#e77f67">
          <font>
             <Font size="39.0" />
          </font>
