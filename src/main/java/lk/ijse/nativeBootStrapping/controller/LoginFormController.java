@@ -6,6 +6,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
+import lk.ijse.nativeBootStrapping.dto.UserDTO;
 
 public class LoginFormController {
 
@@ -26,7 +27,7 @@ public class LoginFormController {
     @FXML
     void signInOnAction(ActionEvent event) {
         id = (String) cmbUserId.getValue();
-
+        ;
 
     }
 
