@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40a1325-8133-47b4-9e3b-4654752d80f1" name="Changes" comment="packages added">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/CustomerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/ItemDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/entity/Customer.java" afterDir="false" />
+    <list default="true" id="a40a1325-8133-47b4-9e3b-4654752d80f1" name="Changes" comment="classes encapsulated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/controller/LoginFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assests/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/login_page_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -34,29 +35,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/sasa-x/Documents/INTELLIJ/BootStrapping/src/main/java/lk/ijse/nativeBootStrapping/lib/txw2-2.3.1.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/sasa-x/Documents/INTELLIJ/BootStrapping/src/main/resources/assests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/lk/ijse/nativeBootStrapping/lib" />
@@ -76,6 +77,8 @@
       <workItem from="1707834188642" duration="305000" />
       <workItem from="1707835431844" duration="3000" />
       <workItem from="1707840608716" duration="2804000" />
+      <workItem from="1707843904240" duration="98000" />
+      <workItem from="1707875774810" duration="1150000" />
     </task>
     <task id="LOCAL-00001" summary="jar added">
       <option name="closed" value="true" />
@@ -93,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707842376879</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="classes encapsulated">
+      <option name="closed" value="true" />
+      <created>1707843926156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707843926156</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jar added" />
     <MESSAGE value="packages added" />
-    <option name="LAST_COMMIT_MESSAGE" value="packages added" />
+    <MESSAGE value="classes encapsulated" />
+    <option name="LAST_COMMIT_MESSAGE" value="classes encapsulated" />
   </component>
 </project>
